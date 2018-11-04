@@ -1,0 +1,40 @@
+/* MAIN STYLES */
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Press Start 2P', monospace;
+
+}
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Roboto Mono', monospace;
+}
+
+a {
+  font-family: 'Roboto Mono', monospace;
+  color: #FA6D6D;
+}
+
+a:hover {
+  color: #92C55F;
+}
+
+img {
+  width: 100%;
+}
+
+.row {
+  margin: 100px;
+}
+
+.card {
+  margin: 25px;
+}
