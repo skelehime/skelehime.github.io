@@ -10,6 +10,16 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+}
+
 p {
   font-family: 'Roboto Mono', monospace;
 }
