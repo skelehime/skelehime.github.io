@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/dashboard.css">
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
@@ -23,78 +24,120 @@
       gtag('config', 'UA-134721371-1');
     </script>
 
+
   </head>
   <body>
-    <div class="container">
-      <div class="row justify-content-md-center">
-        <div class="col-md-12" align="center">
-          <title>SKELEHIME</title>
-          <a href="index.html"><div class="font-effect-anaglyph"><h1><i class="fas fa-eye"></i></h1></div></a>
-          <h1>SKELEHIME</h1>
+    <header>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-md navbar-light fixed-top">
+    <a class="navbar-brand" href="index.html">
+      <div class="font-effect-anaglyph">
+        <h2><i class="fas fa-eye"></i> SKELEHIME  &nbsp;</h2>
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a href="about.html">ABOUT</a>  &nbsp;
+        </li>
+        <li class="nav-item active">
+          <a href="resources.html">RESOURCES</a>  &nbsp;
+        </li>
+        <li class="nav-item">
+          <a href="https://skelehime.myshopify.com">SHOP</a> &nbsp;
+        </li>
+      </ul>
+      <form class="form-inline mt-2 mt-md-0">
+        <div class="card card-info">
+          <div class="card-body">
+            <div id="social media">
+              <a href="https://twitter.com/skelehime"><i class="fab fa-twitter  fa-lg"></i></a>&nbsp; &nbsp; &nbsp;
+              <a href="https://skelehime.tumblr.com"><i class="fab fa-tumblr fa-lg"></i></a>&nbsp; &nbsp; &nbsp;
+              <a href="https://instagram.com/skelehime"><i class="fab fa-instagram fa-lg"></i></a>&nbsp; &nbsp; &nbsp;
+              <a href="https://ko-fi.com/skelehime"><i class="fas fa-coffee fa-lg"></i></a>&nbsp; &nbsp; &nbsp;
+              <a href="https://www.patreon.com/user?u=14129359"><i class="fab fa-patreon fa-lg"></i></a>&nbsp;
+            </div><!-- /social media -->
 
-        </div><!-- /col -->
-      </div><!-- /row -->
+          </div>
+      </div>
+      </form>
+    </div>
+  </nav>
+</header>
 
-      <div class="row justify-content-md-center">
-        <div class="col-md-8" align="center">
-          <div align="left">
-          <p>Here are some things that have been useful to me, and
-            some other things that may be useful to you. :)</p>
+    <div class="container-fluid">
+      <div class="row">
+        <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse">
+          <div class="sidebar-sticky pt-3 align-items-center">
+            <h2 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1">
+              <p>Horror cartoonist from California.</p>
 
-          <h3>Podcasts I Like</h3>
-          <p><a href="https://dirtyoldladies.libsyn.com/">Dirty Old Ladies</a>
-             - an indie comics podcast that doles out some great advice.</p>
-          <p><a href="https://www.thenosleeppodcast.com/">NoSleep</a>
-             - creepypastas (scary stories) read aloud!</p>
-          <p><a href="http://theblacktapespodcast.com/">The Black Tapes</a>
-             - a truly horrifying fiction podcast. One of the first pieces of
-             horror media to start me writing horror comics.</p>
-          <p><a href="https://www.spiritspodcast.com/">Spirits</a> - a mythology
-            and lore podcast. Check out their urban legend series!</p>
+            </h2>
 
-          <h3>Books on Comics</h3>
-          <p><a href="https://www.amazon.com/Making-Comics-Storytelling-Secrets-Graphic/dp/0060780940">Making Comics by Scott McCloud</a></p>
-          <p><a href="https://www.amazon.com/Understanding-Comics-Invisible-Scott-McCloud/dp/006097625X">Understanding Comics by Scott McCloud</a></p>
+            <div id="social" style="text-align: center;">
+              <a href="https://twitter.com/skelehime"><i class="fab fa-twitter  fa-lg"></i></a>&nbsp; &nbsp; &nbsp;
+              <a href="https://skelehime.tumblr.com"><i class="fab fa-tumblr fa-lg"></i></a>&nbsp; &nbsp; &nbsp;
+              <a href="https://instagram.com/skelehime"><i class="fab fa-instagram fa-lg"></i></a>&nbsp; &nbsp; &nbsp;
+              <a href="https://ko-fi.com/skelehime"><i class="fas fa-coffee fa-lg"></i></a>&nbsp; &nbsp; &nbsp;
+              <a href="https://www.patreon.com/user?u=14129359"><i class="fab fa-patreon fa-lg"></i></a>&nbsp;
+            </div><!-- /social media -->
 
-          <h3>Books I Admire</h3>
-          <p><a href="https://trevorhenderson.bigcartel.com/product/pre-order-odd-noises-in-empty-rooms-ghost-book">Odd Noises - Trevor Henderson</a></p>
-          <p><a href="https://www.shortbox.co.uk/product/the-island-by-joy-san">The Island - Joy San</a></p>
-          <p><a href="https://www.simonandschuster.ca/books/Through-the-Woods/Emily-Carroll/9781442465954">Through the Woods - Emily Carrol</a></p>
-          <p><a href="http://www.melaniegillman.com/?p=96">As The Crow Flies - Melanie Gillman</a></p>
-          <p><a href="http://www.calvinandhobbes.com/all-books/">Calvin & Hobbes - Bill Watterson</a></p>
-          <p><a href="https://kodanshacomics.com/series/akira/">AKIRA by Katsuhiro Otomo</a></p>
-          <p></p>
-
-          <h3>Other Stuff</h3
-          <p><a href="https://twitter.com/skelehime/status/1037513174084345857">
-            My horror book recommendations</a> (Twitter)</p>
-          <p><a href="https://twitter.com/skelehime/status/1072249687648784388">
-            My learnings from reading 50 horror books in 2018</a> (Twitter)</p>
-          <p><a href="https://www.goodreads.com/user/show/80502361-nico">My Goodreads account</a>
-            <br>
-          </p>
-        </div>
-        </div><!-- /col -->
-
-      </div><!--/ row -->
-
-      <div class="row justify-content-md-center">
-        <div class="col-md-6" align="center">
-          <div id="social media">
-            <a href="https://twitter.com/skelehime"><i class="fab fa-twitter  fa-lg"></i></a>&nbsp; &nbsp; &nbsp;
-            <a href="https://skelehime.tumblr.com"><i class="fab fa-tumblr fa-lg"></i></a>&nbsp; &nbsp; &nbsp;
-            <a href="https://instagram.com/skelehime"><i class="fab fa-instagram fa-lg"></i></a>&nbsp; &nbsp; &nbsp;
-            <a href="https://ko-fi.com/skelehime"><i class="fas fa-coffee fa-lg"></i></a>&nbsp; &nbsp; &nbsp;
-            <a href="https://www.patreon.com/user?u=14129359"><i class="fab fa-patreon fa-lg"></i></a>&nbsp;
-          </div><!-- /social media -->
-
-        </div><!-- /col -->
-      </div><!-- /row -->
+            <img class="sideba" width="70%" src="img/loki.PNG">
 
 
-    </div><!-- /container -->
+          </div>
+        </nav>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
 
 
+          <div class="row justify-content-md-left">
+            <div class="col-md-8" align="center">
+              <div align="left">
+              <p>Here are some things that have been useful to me, and
+                some other things that may be useful to you. :)</p>
+
+              <h3>Podcasts I Like</h3>
+              <p><a href="https://www.wnycstudios.org/podcasts/spooked">Spooked</a>
+                 - Fantastic listener-submitted scary stories!</p>
+              <p><a href="http://theblacktapespodcast.com/">The Black Tapes</a>
+                 - a truly horrifying fiction podcast. One of the first pieces of
+                 horror media to start me writing horror comics.</p>
+              <p><a href="https://www.spiritspodcast.com/">Spirits</a> - a mythology
+                and lore podcast. Check out their urban legend series!</p>
+              <p><a href="https://dirtyoldladies.libsyn.com/">Dirty Old Ladies</a>
+                  - an indie comics podcast that doles out some great advice.</p>
+
+              <h3>Books on Comics</h3>
+              <p><a href="https://www.amazon.com/Making-Comics-Storytelling-Secrets-Graphic/dp/0060780940">Making Comics by Scott McCloud</a></p>
+              <p><a href="https://www.amazon.com/Understanding-Comics-Invisible-Scott-McCloud/dp/006097625X">Understanding Comics by Scott McCloud</a></p>
+
+              <h3>Books I Admire</h3>
+              <p><a href="https://www.shortbox.co.uk/product/the-island-by-joy-san">The Island - Joy San</a></p>
+              <p><a href="https://www.simonandschuster.ca/books/Through-the-Woods/Emily-Carroll/9781442465954">Through the Woods - Emily Carrol</a></p>
+              <p><a href="http://www.melaniegillman.com/?p=96">As The Crow Flies - Melanie Gillman</a></p>
+              <p><a href="http://www.calvinandhobbes.com/all-books/">Calvin & Hobbes - Bill Watterson</a></p>
+              <p><a href="https://kodanshacomics.com/series/akira/">AKIRA by Katsuhiro Otomo</a></p>
+              <p><a href="https://trevorhenderson.bigcartel.com/product/pre-order-odd-noises-in-empty-rooms-ghost-book">Odd Noises - Trevor Henderson</a></p>
+              <p></p>
+
+              <h3>Other Stuff</h3
+              <p><a href="https://twitter.com/skelehime/status/1037513174084345857">
+                My horror book recommendations</a> (Twitter)</p>
+              <p><a href="https://twitter.com/skelehime/status/1072249687648784388">
+                My learnings from reading 50 horror books in 2018</a> (Twitter)</p>
+              <p><a href="https://www.goodreads.com/user/show/80502361-nico">My Goodreads account</a>
+                <br>
+              </p>
+            </div>
+            </div><!-- /col -->
+          </div>
+
+        </main>
+      </div><!-- /container -->
 
 
 

@@ -8,6 +8,7 @@ h1 {
 h2 {
   font-family: 'Roboto Mono', monospace;
   font-weight: bold;
+  margin: 0;
 }
 
 h3 {
@@ -24,6 +25,12 @@ p {
   font-family: 'Roboto Mono', monospace;
 }
 
+ul {
+  font-family: 'Roboto Mono', monospace;
+  padding-inline-start: 20px;
+}
+
+
 a {
   font-family: 'Roboto Mono', monospace;
   color: #FA6D6D;
@@ -33,10 +40,67 @@ a:hover {
   color: #0086a0;
 }
 
+body {
+  background-color: 	#fff9e5;
+}
+
+.sideba {
+    position: relative;
+}
+
+
+img.sideba {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1.25rem;
+  position: absolute;
+  left: 1.25rem;
+  bottom: 1.25rem;
+}
+
+.container-fluid {
+    margin: 100px 0px 0px 0px;
+
+}
+
+
 .row {
-  margin: 100px 0px 100px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
 .card {
   margin: 25px;
+}
+
+.card-info {
+  border-color: #FA6D6D;
+  margin: 0;
+}
+
+.card-body {
+  padding: .50rem;
+}
+
+.card-info.card-title {
+    color: #FA6D6D;
+}
+
+.navbar
+{
+    border: 1px solid #FA6D6D;
+    border-style: double;
+}
+
+.navbar-dark .navbar-brand {
+  color: #000;
+}
+
+.sidebar {
+    border-right: 1px solid #FA6D6D;
+    background-color: transparent;
+}
+
+body.social {
+  text-align: center;
 }
