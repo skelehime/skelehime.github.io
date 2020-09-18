@@ -42,6 +42,10 @@ a:hover {
 
 body {
   background-color: #fff9e5;
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, #FA6D6D 0px, transparent 1px),
+    linear-gradient(to bottom, #FA6D6D 0px, transparent 1px);
 }
 
 .sideba {
@@ -89,6 +93,7 @@ img.sideba {
 {
     border: 1px solid #FA6D6D;
     border-style: double;
+    background-color: #fff9e5;
 }
 
 .navbar-dark .navbar-brand {
@@ -97,7 +102,7 @@ img.sideba {
 
 .sidebar {
     border-right: 1px solid #FA6D6D;
-    background-color: transparent;
+    background-color: #fff9e5;
 }
 
 body.social {
