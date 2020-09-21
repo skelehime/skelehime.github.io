@@ -19,6 +19,7 @@ h3 {
 h4 {
   font-family: 'Roboto Mono', monospace;
   font-weight: bold;
+  margin-bottom: 0;
 }
 
 p {
@@ -77,13 +78,30 @@ img.sideba {
   margin: 0px 0px 0px 0px;
 }
 
+/*CARD STYLES*/
+.card-header {
+  background-color: transparent;
+  border-bottom-color: #FA6D6D;
+}
+
 .card {
   margin: 25px;
 }
 
+.comic-card {
+  margin: 2rem;
+  border-color: #FA6D6D;
+  background-color: #fff9e5;
+}
+
 .card-info {
   border-color: #FA6D6D;
+  background-color: #fff9e5;
   margin: 0;
+}
+
+.card-text {
+    padding: 1rem;
 }
 
 .card-body {
