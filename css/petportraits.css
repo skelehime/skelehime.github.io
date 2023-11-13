@@ -105,3 +105,7 @@ img {
   color: black;
   text-align: center;
 }
+
+.btn-group-lg > .btn, .btn-lg {
+  font-size: 3rem;
+}
